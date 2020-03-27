@@ -18,10 +18,12 @@
 
 	stock_min = 1
 	stock_max = 20
+
 	price_min = 325
 	price_max = 400
 	availability_prob = 100
 	
+
 	/datum/blackmarket_item/consumable/donk_pocket_box/spawn_item(loc)
 		var/donkpockets = pick(list(/obj/item/storage/box/donkpockets,
 				/obj/item/storage/box/donkpockets/donkpocketspicy,
